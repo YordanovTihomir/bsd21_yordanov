@@ -8,14 +8,14 @@
 
 ## TODO-List
 
-- [ ] Read documentation
-- [ ] Create new Repository + add users
-- [ ] Create Maven project
-- [ ] Add prepared classes
-- [ ] Adding pom.xml configurations
-- [ ] Finding Bug (1)
-- [ ] Finding Bug (2)
-- [ ] Finding Bug (3)
+- [x] Read documentation
+- [x] Create new Repository + add users
+- [x] Create Maven project
+- [x] Add prepared classes
+- [x] Adding pom.xml configurations
+- [x] Finding Bug (1)
+- [x] Finding Bug (2)
+- [x] Finding Bug (3)
 - [ ] New implementation in Drinks Interface
 - [ ] JavaDoc
 - [ ] Tests (100%, new drinks, javadoc)
