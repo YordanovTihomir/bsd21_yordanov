@@ -20,6 +20,12 @@
             </roles>
             <timezone>Europe/Vienna</timezone>
         </developer>
+        <developer>
+            <id>yordanov</id>
+            <name>Tihomir Yordanov</name>
+            <email>t.yordanovv@gmail.com</email>
+            <timezone>Europe/Vienna</timezone>
+        </developer>
     </developers>
 
     <properties>
