@@ -16,8 +16,8 @@
 - [x] Finding Bug (1)
 - [x] Finding Bug (2)
 - [x] Finding Bug (3)
-- [ ] New implementation in Drinks Interface
-- [ ] JavaDoc
-- [ ] Tests (100%, new drinks, javadoc)
+- [x] New implementation in Drinks Interface
+- [x] JavaDoc
+- [x] Tests (100%, new drinks, javadoc)
 - [ ] Maven site
 - [ ] History control
