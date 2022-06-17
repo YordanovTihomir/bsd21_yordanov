@@ -24,6 +24,7 @@ public class DrinkQueue implements DrinkQueueInterface{
     public DrinkQueue(int maxsize) {
         this.maxSize = maxsize;
     }
+    public DrinkQueue(){}
 
     /**
      * add object

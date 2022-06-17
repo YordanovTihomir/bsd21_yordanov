@@ -46,9 +46,6 @@ public class SimpleDrink extends Drink{
      */
     @Override
     public boolean isAlcoholic() {
-        if(l.getAlcoholPercent() > 0){
-            return true;
-        }
-        return false;
+        return l.getAlcoholPercent() > 0;
     }
 }
