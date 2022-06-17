@@ -1,4 +1,4 @@
-package at.fhj.iit;
+package at.campus02.bsd;
 
 /**
  * Abstract base class for concrete drink classes

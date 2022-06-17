@@ -1,3 +1,4 @@
+package at.campus02.bsd;
 
 // fastly written (not really nice) comments but good enough to understand
 public interface IQueue {

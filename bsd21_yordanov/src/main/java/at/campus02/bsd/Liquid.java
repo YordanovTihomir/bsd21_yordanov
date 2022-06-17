@@ -1,4 +1,4 @@
-package at.fhj.iit;
+package at.campus02.bsd;
 /**
  * Class represents a liquid which can be used in
  * drinks
