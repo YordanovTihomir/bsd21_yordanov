@@ -1,5 +1,8 @@
 package at.campus02.bsd;
-
+/**
+ * DrinkQueue class
+ * @author Tihomir Yordanov
+ */
 import java.util.ArrayList;
 import java.util.List;
 import java.util.NoSuchElementException;
@@ -8,15 +11,27 @@ import java.util.NoSuchElementException;
 // there are different Bugs, wrong implementation, typos, ...
 // write Test-Cases (read Queue Interface for understanding methods) and use Debugging possibilies of your IDE
 
+/**
+ * Public class String Queue
+ */
 public class StringQueue implements IQueue {
 
   private List<String> elements = new ArrayList<String>();
   private int maxSize = 5;
 
+  /**
+   * constructor for StringQueue
+   * @param maxsize int
+   */
   public StringQueue(int maxsize) {
     this.maxSize = maxsize;
   }
 
+  /**
+   * add object
+   * @param obj
+   * @return returns true if success
+   */
   @Override
   public boolean offer(String obj) {
     if (elements.size() != maxSize)
@@ -27,6 +42,9 @@ public class StringQueue implements IQueue {
     return true;
   }
 
+  /**
+   * @return and delete first element
+   */
   @Override
   public String poll() {
     String element = peek();
@@ -38,6 +56,10 @@ public class StringQueue implements IQueue {
     return element;
   }
 
+  /**
+   * @return and del first element
+   * @throws NoSuchElementException if no element
+   */
   @Override
   public String remove() {
     String element = poll();
@@ -47,6 +69,11 @@ public class StringQueue implements IQueue {
     return element;
   }
 
+  /**
+   * get the first element
+   * if list is empty: return null
+   * @return Object
+   */
   @Override
   public String peek() {
     String element;
@@ -58,6 +85,11 @@ public class StringQueue implements IQueue {
     return element;
   }
 
+  /**
+   * get the first element
+   * @return obj
+   * @throws NoSuchElementException if no element
+   */
   @Override
   public String element() {
     String element = peek();
