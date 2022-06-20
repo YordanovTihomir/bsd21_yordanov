@@ -19,5 +19,5 @@
 - [x] New implementation in Drinks Interface
 - [x] JavaDoc
 - [x] Tests (100%, new drinks, javadoc)
-- [ ] Maven site
+- [x] Maven site
 - [ ] History control

@@ -1,0 +1,14 @@
+<project name="bsd21_yordanov">
+    <publishDate position="right"/>
+    <version position="left"/>
+    <body>
+        <menu name="Overview">
+            <item name="Introduction" href="index.html"/>
+            <item name="Test" href="/jacoco/index.html"/>
+            <item name="Tihomir Yordanov" href="yordanov.html"/>
+        </menu>
+        <menu ref="reports"/>
+        <menu ref="parent"/>
+        <menu ref="modules"/>
+    </body>
+</project>
