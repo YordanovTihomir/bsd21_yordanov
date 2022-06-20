@@ -20,4 +20,4 @@
 - [x] JavaDoc
 - [x] Tests (100%, new drinks, javadoc)
 - [x] Maven site
-- [ ] History control
+- [x] History control
